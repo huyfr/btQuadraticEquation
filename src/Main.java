@@ -14,13 +14,13 @@ public class Main {
         double delta=quadraticEquation.getDiscriminant();
 
         if (delta>0){
-            System.out.println("Phuong trinh co 2 nghiem phan biet");
-            System.out.println("Nghiem 1: "+quadraticEquation.getRoot1());
-            System.out.println("Nghiem 2: "+quadraticEquation.getRoot2());
+            System.out.println("The equation has two roots");
+            System.out.println("Root 1: "+quadraticEquation.getRoot1());
+            System.out.println("Root 2: "+quadraticEquation.getRoot2());
         } else if (delta==0){
-            System.out.print("Phuong trinh co 1 nghiem: "+quadraticEquation.getRoot1());
+            System.out.print("The equation has one root: "+quadraticEquation.getRoot1());
         } else {
-            System.out.println("Phuong trinh vo nghiem");
+            System.out.println("The equation has no real roots");
         }
     }
 }

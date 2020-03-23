@@ -28,10 +28,10 @@ public class QuadraticEquation {
     }
 
     public double getRoot1() {
-        return (-this.b + Math.sqrt(getDiscriminant()) / 2 * this.a);
+        return ((-this.b + Math.sqrt(getDiscriminant())) / 2 * this.a);
     }
 
     public double getRoot2() {
-        return (-this.b - Math.sqrt(getDiscriminant()) / 2 * this.a);
+        return ((-this.b - Math.sqrt(getDiscriminant())) / 2 * this.a);
     }
 }
